@@ -1,0 +1,131 @@
+	.logo img{
+			width: 100px;
+
+		}
+		.header{
+			display: flex;
+			background-color: orange;
+			padding: 10px;
+		}
+		.nav{
+			width: 100%;
+
+		}
+		.menu{
+			text-align: right;
+			font-size: 30px;
+		}
+		.menu li{
+			display:inline-block;
+			padding-right:10px;
+
+		} 
+
+.banner{
+	background-image: url(hotel.JPG);
+	height:70vh;
+	background-size:cover ;
+	background-position: center;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: o.6 ease;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+.title{
+     position: absolute;
+     top: 0%;
+     left: 15%;
+}
+.title h1{
+	color: white;
+	font-size: 30px;
+}
+.title h2{
+	color: white;
+	font-size: 30px;
+}
+.text{
+	position: absolute;
+	top:40%;
+	left: 10%;
+}
+.text h1{
+	font-size: 80px;
+	color: white;
+}
+.text h2{
+	font:italic;
+	font-size: 55px;
+	color:yellow;
+}
+.button{
+	position: absolute;
+	top:81%;
+	left: 35%;
+}
+.btn{
+	border:1px solid white;
+	padding:5px 20px;
+	color: white;
+	transition: 0.5 ease;
+	font-size: 30px;
+	text-decoration: none;
+}
+.btn:hover{
+	background-color: red;
+	color: black;
+}
+.columns{
+	display: flex;
+	justify-content:center;
+} 
+.columns .column-1{
+	width:500px;
+	border: 1px solid black;
+	margin-right:10px;
+}
+.columns-content{
+	padding:10px;
+}
+
+.column-1 img{
+	width: 100%;
+}
+
+.column-1:hover{
+	background-color: black;
+	color:yellow;
+}	
+body{
+	margin:0px;
+}
+.gallery .gallerytext img{
+	width: 460px;
+}
+.gallery{
+	display: flex;
+}
+.services{
+	display: flex;
+}
+.services .service-1 img{
+	width: 460px;
+}
+.service-1:hover{
+	background-color: black;
+	color:yellow;
+}
+.gallerytext:hover{
+	background-color:black;
+	color: yellow;
+}
+.gallerytext{
+     border:solid 5px red ;
+}
